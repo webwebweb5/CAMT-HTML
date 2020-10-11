@@ -1,0 +1,58 @@
+body {
+    background-color: white;
+}
+h1, h2, h3, h4, h5, h6, div {
+    font-family: cursive;
+    color: green;
+}
+.name {
+    color: red;
+}
+.register2 {
+    color: red;
+}
+.register-head {
+    color: #f37521;
+}
+a.hover {
+    display: inline-block;
+    padding: 5px 10px;
+    color: #2196f3;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+a.hover:hover{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.2s;
+}
+a.link:link {
+    color: purple;
+}
+a.link:visited {
+    color: brown;
+}
+a.link:hover {
+    color: pink;
+}
+a.link:active {
+    color: yellow;
+}
+p span#span1 {
+    color: #52f321;
+}
+#span2 {
+    color: red;
+}
+.border {
+    border-color: turquoise;
+    border-radius: 10px;
+}
+.checkbox {
+    color: green;
+}
