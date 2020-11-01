@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Just+Another+Hand&display=swap');
+
+body{
+    background: url('../img/bg.jpg') center no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+#logo{
+    text-align: center;
+    padding-top: 100px;
+}
+
+#intro{
+    text-align: center;
+    color: white;
+    font-family: 'Just Another Hand', cursive;
+    font-size: 1.8em;
+}
+
+#counter{
+    text-align: center;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    margin: -15px 0 0;
+}
+
+#icons{
+    text-align: center;
+}
+
+#icons .fab{
+    color: white;
+    margin: 5px 15px;
+    position: relative;
+    font-size: 60px;
+}
+
+#icons .twitter:hover{
+    color: #1DA1F2;
+    bottom: 5px;
+}
+
+#icons .facebook:hover{
+    color: #4267B2;
+    bottom: 5px;
+}
+
+#icons .google:hover{
+    color: #DB4437;
+    bottom: 5px;
+}
+
+#icons .instagram:hover{
+    color: #C13584;
+    bottom: 5px;
+}
+
+#signup{
+    text-align: center;
+}
