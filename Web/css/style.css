@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Just+Another+Hand&display=swap');
+
+body{
+    background-image: url('../img/bg.jpg');
+    height: 100%;
+    background-size: cover;
+}
+
+#logo{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#img img{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 6px;
+    width: 20%;
+    height: 20%;
+    transition: 0.3s ease;
+}
+
+#img img:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+#icons{
+    text-align: center;
+}
+
+#icons li{
+    list-style: none;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+    margin-top: 30px;
+}
+
+#icons .fab{
+    color: white;
+    margin: 5px 15px;
+    position: relative;
+    font-size: 60px;
+    transition: 0.3s;
+}
+
+#icons .twitter:hover{
+    color: #1DA1F2;
+}
+
+#icons .facebook:hover{
+    color: #4267B2;
+}
+
+#icons .google:hover{
+    color: #DB4437;
+}
+
+#icons .instagram:hover{
+    color: #C13584; 
+}
